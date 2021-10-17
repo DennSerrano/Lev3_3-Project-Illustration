@@ -1,40 +1,44 @@
 /*====================
     General
 =====================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
+
 img:hover{
     box-shadow:-1px 1px 2px 2px rgba(172, 172, 172, 0.5);
 }
+
 h2{
     font-size: 8vh;
     font-weight: 400;
     color: #202020;
 }
+
 p{
     font-size: 3vh;
     line-height: 5.5vh;
     color: #4D4D4D;
 }
-/* font-family: 'Lato', sans-serif;
-font-family: 'Merriweather', serif
-Farbe: #202020, #24bff2, #fff, #F5FBFE.
-Farbe social media: #3b5998, #fcaf45, #55acee, #c4302b */
 
 /*====================
     Header img
 =====================*/
+
 header article:nth-of-type(1) {
     background: url("../img/illustration1.gif") right/contain no-repeat;
 }
+
 header article:nth-of-type(2) {
     background: url("../img/illustration2.png") left /contain no-repeat;
 }
+
 header article:nth-of-type(3) {
     background: url("../img/illustration3.png") right/contain no-repeat;
 }
@@ -42,6 +46,7 @@ header article:nth-of-type(3) {
 /*====================
     Header Nav
 =====================*/
+
 header nav {
     text-align: right;
 }
@@ -52,19 +57,21 @@ header nav ul {
 }
 
 header nav ul li {
-display: inline-block;
-padding-left: 1vw;
+    display: inline-block;
+    padding-left: 1vw;
 }
 
 header nav ul li a {
-font-family: 'Lato', sans-serif;
-font-size: 2.2vh;
-text-decoration: none;
-color: #4E4E4E;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.2vh;
+    text-decoration: none;
+    color: #4E4E4E;
 }
+
 /*====================
     Header Bild 1
 =====================*/
+
 header article {
     padding: 20vh 0 25vh 10vw;
 }
@@ -81,29 +88,33 @@ header article p {
 }
 
 header article button {
-border:none;
-border-radius: 6px;
+    border:none;
+    border-radius: 6px;
     color: white;
     font-size:16px;
     background-color: #000000;
     padding:2.3vh 1.6vw;
     margin:2vh 0.5vw 0 0;
 }
+
 header article button:nth-of-type(2) {
-color: #202020;
-font-size:15px;
-background-color: #fff;
-box-shadow: 1px 1px 1px 1px rgba(155, 155, 155, 0.2);
+    color: #202020;
+    font-size:15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(155, 155, 155, 0.2);
 }
+
 /*====================
     Header Bild 2
 =====================*/
+
 header article:nth-of-type(2) {
     margin: 15vh 0 15vh 10vw;
     padding: 18%;
     text-align: right;
     position: relative;
 }
+
 header article:nth-of-type(2) div{
     text-align: left;
     position:absolute;
@@ -115,9 +126,11 @@ header article:nth-of-type(2) div p{
     margin-top: 3vh;
     width: 35vw;
 }
+
 /*====================
     Header Bild 3
 =====================*/
+
 header article:nth-of-type(3) {
     margin: 37vh 10vw 30vh 10vw;
     padding:15%;
@@ -125,6 +138,7 @@ header article:nth-of-type(3) {
     position: relative;
     
 }
+
 header article:nth-of-type(3) div{
     text-align: left;
     position:absolute;
@@ -137,14 +151,15 @@ header article:nth-of-type(3) div p{
     width: 35vw;
 }
 
-
 /*====================
     MAIN
 =====================*/
+
 main section:nth-of-type(1) h2{
     text-align: center;
     padding-top:10vh;
 }
+
 main section:nth-of-type(1) p{
     text-align: center;
     width: 63.5%;
@@ -155,24 +170,30 @@ main section:nth-of-type(1) div img{
     width: 25%;
     margin-left:6vw;
 }
+
 /*====================
     Main Section 2
 =====================*/
+
 main section:nth-of-type(2) h2{
     text-align: center;
     margin-top: 20vh;
 }
+
 main section:nth-of-type(2) p{
-text-align: center;
-width: 50%;
-margin:3vh 0 12vh 25vw;
+    text-align: center;
+    width: 50%;
+    margin:3vh 0 12vh 25vw;
 }
+
 main section:nth-of-type(2) article{
-margin: 5vh 6vh 15vh 7vw;
+    margin: 5vh 6vh 15vh 7vw;
 }
+
 main section:nth-of-type(2) article img{
-width:45%;
+    width:45%;
 }
+
 main section:nth-of-type(2) article img:nth-of-type(odd){
     width:45%;
     margin: 0 5vw 0 0 ;
@@ -181,16 +202,19 @@ main section:nth-of-type(2) article img:nth-of-type(odd){
 /*====================
     Footer
 =====================*/
+
 footer h2{
     text-align: center;
     margin-top: 21vh;
 }
+
 footer p{
     text-align: center;
     margin-top: 10vh;
     width: 51%;
     margin:3vh 0 4vh 25vw;
 }
+
 footer article{
     background-color: #F5FBFE;
     border-radius: 10px;
@@ -200,30 +224,36 @@ footer article{
     margin: 0 auto;
     border: 1px solid whitesmoke;
 }
+
 footer article h3{
     color:#202020;
     font-weight: 400;
-font-size: 25px;
-padding-top: 10vh;
+    font-size: 25px;
+    padding-top: 10vh;
 }
+
 footer article p{
-color: #202020;
-font-weight: 500;
-font-size:60px;
-margin:0 auto;
-padding: 9vh 0 8.5vh 0;
+    color: #202020;
+    font-weight: 500;
+    font-size:60px;
+    margin:0 auto;
+    padding: 9vh 0 8.5vh 0;
 }
+
 footer article ul{
     list-style: none;
 }
+
 footer article ul li{
-line-height: 25px;
+    line-height: 25px;
 }
+
 footer article ul li:nth-of-type(1){
-color: #757779;
-font-size: 20px;
-line-height: 10vh;
+    color: #757779;
+    font-size: 20px;
+    line-height: 10vh;
 }
+
 footer article button{
     border-style: none;
     border-radius: 6px;
@@ -233,34 +263,42 @@ footer article button{
     padding: 2.5vh 4vw;
     margin-top:5vh;
 }
+
 footer h2:nth-of-type(2){
     margin-bottom: 6vh;
 }
+
 footer ul{
     text-align:center;
     list-style:none;
 }
+
 footer div ul li:nth-of-type(odd){
     font-size: 14px;
-line-height:5.5vh;
-color: #BFBFBF;
+    line-height:5.5vh;
+    color: #BFBFBF;
 }
+
 footer div ul li:nth-of-type(even){
     font-size: 14px;
     line-height:5.5vh;
 }
+
 footer div ul li span:nth-of-type(1){
     font-size: 30px;
-color:#3B5998;
+    color:#3B5998;
 }
+
 footer div ul li span:nth-of-type(2){
         font-size: 30px;
         color:#F6AE44;
 }
+
 footer div ul li span:nth-of-type(3){
         font-size: 30px;
         color:#61B3EF;
 }
+
 footer div ul li span:nth-of-type(4){
         font-size: 30px;
         color:#C4302B;
